@@ -1,0 +1,1 @@
+# Sparacino-Conjecture-2026-on-Primes-After-the-Product-of-Consecutive-Prime-Gap-and-1-p-1-
