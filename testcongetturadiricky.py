@@ -1,5 +1,5 @@
 """
-Test della Congettura di Ricky  —  versione ottimizzata (1 MILIARDO)
+Test della Congettura di Riccardo Sparacino 2026  —  versione ottimizzata (1 MILIARDO)
 ====================================================================
 Per ogni coppia di primi consecutivi (p1, p2) con p1 <= MAX_P1,
 calcola M = d * p1 (dove d = p2 - p1) e N = ceil(ln^2(M)),
