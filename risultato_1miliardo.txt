@@ -1,0 +1,13 @@
+============================================================
+  RISULTATI (1 MILIARDO)
+============================================================
+  Coppie analizzate:  50,847,534
+  Successi:           50,847,534
+  Fallimenti:         0
+  Tempo crivello:     6.28 s
+  Tempo analisi:      144.38 s
+  Tempo totale:       150.66 s
+
+  ✅ NESSUN FALLIMENTO TROVATO!
+     La congettura regge su tutte le coppie testate.
+============================================================
