@@ -1,0 +1,18 @@
+=== TEST CONGETTURA DI RICKY GPU + K STATS ===
+Limite analizzato : 10,000,000,000,000
+Inizio test       : 2026-03-18 01:11:43
+Elenco Fallimenti (se presenti):
+--------------------------------------------------
+
+
+[!] Elaborazione interrotta manualmente dall'utente.
+
+--------------------------------------------------
+RISULTATO FINALE:
+Fine test                 : 2026-03-18 01:14:16
+Coppie totali analizzate  : 139,864,010
+Esiti positivi            : 139,864,010
+Totale fallimenti riscontr: 0
+Max K riscontrato global. : 10000
+Tempo totale impiegato    : 153.49 secondi
+CONCLUSIONE: Nessun fallimento.
