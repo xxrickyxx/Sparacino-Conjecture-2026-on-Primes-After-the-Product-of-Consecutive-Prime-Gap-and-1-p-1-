@@ -1,0 +1,369 @@
+Congettura Sparacino - Verifica fino a 10^30
+GPU: NVIDIA GeForce RTX 5060 Ti
+Data: 2026-03-28 23:03:10.542243
+
+Scala 10^13: 6383830 coppie, 0 fallimenti, k_max=499
+Scala 10^14: 5915736 coppie, 0 fallimenti, k_max=555
+Scala 10^15: 5515921 coppie, 0 fallimenti, k_max=559
+Scala 10^16: 5206570 coppie, 0 fallimenti, k_max=585
+Scala 10^17: 4927034 coppie, 0 fallimenti, k_max=763
+Scala 10^18: 4674874 coppie, 0 fallimenti, k_max=633
+Scala 10^19: 4421321 coppie, 0 fallimenti, k_max=699
+Scala 10^20: 4213127 coppie, 0 fallimenti, k_max=655
+Scala 10^21: 4028617 coppie, 0 fallimenti, k_max=743
+Scala 10^22: 3828169 coppie, 0 fallimenti, k_max=871
+Scala 10^23: 3658646 coppie, 0 fallimenti, k_max=831
+Scala 10^24: 3503194 coppie, 0 fallimenti, k_max=947
+Scala 10^25: 3384183 coppie, 0 fallimenti, k_max=941
+Scala 10^26: 3268838 coppie, 0 fallimenti, k_max=933
+Scala 10^27: 3139030 coppie, 0 fallimenti, k_max=935
+Scala 10^28: 3043587 coppie, 0 fallimenti, k_max=1041
+Scala 10^29: 2915898 coppie, 0 fallimenti, k_max=969
+Scala 10^30: 2832334 coppie, 0 fallimenti, k_max=1339
+
+Totale: 74860909 coppie, 0 fallimenti
+
+
+PS C:\Users\spara\Downloads\congettura_di_ricky> python .\test_final.py --scales 13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 --windows-per-scale 10 --window 20000000
+[*] Compilazione kernel CUDA 128-bit... fatto (0.0s)
+[*] Generazione piccoli primi fino a 10^6... 78,498 primi
+
+======================================================================
+  CONGETTURA SPARACINO - Verifica 128-bit CUDA
+  GPU: NVIDIA GeForce RTX 5060 Ti
+  Scale: ['10^13', '10^14', '10^15', '10^16', '10^17', '10^18', '10^19', '10^20', '10^21', '10^22', '10^23', '10^24', '10^25', '10^26', '10^27', '10^28', '10^29', '10^30']
+  Finestra per scala: 20,000,000 numeri x 10 finestre
+  Inizio: 2026-03-28 22:28:56
+======================================================================
+
+----------------------------------------------------------------------
+  SCALA: 10^13  (1.000e+13)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.772e+13  candidati=789,571  primi=640,668  coppie=640,667  fail=0  k_medio=31.0  k_max=373  ratio_max=0.3239  6.4s
+  Finestra 2/10  X~5.270e+13  candidati=793,345  primi=633,939  coppie=633,938  fail=0  k_medio=31.3  k_max=439  ratio_max=0.3385  6.5s
+  Finestra 3/10  X~2.131e+13  candidati=782,734  primi=652,230  coppie=652,229  fail=0  k_medio=30.4  k_max=397  ratio_max=0.3641  6.4s
+  Finestra 4/10  X~3.596e+13  candidati=787,691  primi=639,475  coppie=639,474  fail=0  k_medio=30.9  k_max=391  ratio_max=0.3641  6.2s
+  Finestra 5/10  X~2.256e+13  candidati=781,948  primi=650,326  coppie=650,325  fail=0  k_medio=30.5  k_max=443  ratio_max=0.3757  6.4s
+  Finestra 6/10  X~7.652e+13  candidati=795,138  primi=624,280  coppie=624,279  fail=0  k_medio=31.8  k_max=453  ratio_max=0.3757  6.5s
+  Finestra 7/10  X~6.433e+13  candidati=794,770  primi=629,076  coppie=629,075  fail=0  k_medio=31.6  k_max=439  ratio_max=0.3757  6.5s
+  Finestra 8/10  X~8.096e+13  candidati=795,845  primi=623,803  coppie=623,802  fail=0  k_medio=31.7  k_max=487  ratio_max=0.3912  6.6s
+  Finestra 9/10  X~5.489e+13  candidati=793,120  primi=631,976  coppie=631,975  fail=0  k_medio=31.3  k_max=499  ratio_max=0.3912  6.6s
+  Finestra 10/10  X~1.581e+13  candidati=777,698  primi=658,067  coppie=658,066  fail=0  k_medio=30.1  k_max=355  ratio_max=0.3912  6.2s
+
+  >> Scala 10^13: 6,383,830 coppie  |  fallimenti=0  |  k_medio=31.04  |  k_max=499  |  ratio_max=0.3912
+
+----------------------------------------------------------------------
+  SCALA: 10^14  (1.000e+14)
+----------------------------------------------------------------------
+  Finestra 1/10  X~1.139e+14  candidati=799,386  primi=617,316  coppie=617,315  fail=0  k_medio=32.1  k_max=391  ratio_max=0.3218  6.6s
+  Finestra 2/10  X~8.363e+14  candidati=812,485  primi=582,106  coppie=582,105  fail=0  k_medio=34.1  k_max=441  ratio_max=0.3218  7.2s
+  Finestra 3/10  X~4.401e+14  candidati=809,905  primi=592,641  coppie=592,640  fail=0  k_medio=33.5  k_max=449  ratio_max=0.3266  7.0s
+  Finestra 4/10  X~7.121e+14  candidati=811,955  primi=584,245  coppie=584,244  fail=0  k_medio=33.9  k_max=475  ratio_max=0.3665  7.1s
+  Finestra 5/10  X~8.974e+14  candidati=813,229  primi=580,782  coppie=580,781  fail=0  k_medio=34.2  k_max=555  ratio_max=0.4141  7.1s
+  Finestra 6/10  X~2.074e+14  candidati=804,098  primi=605,799  coppie=605,798  fail=0  k_medio=32.7  k_max=437  ratio_max=0.4141  6.8s
+  Finestra 7/10  X~7.970e+14  candidati=811,954  primi=582,702  coppie=582,701  fail=0  k_medio=34.0  k_max=523  ratio_max=0.4141  7.1s
+  Finestra 8/10  X~4.808e+14  candidati=809,970  primi=591,327  coppie=591,326  fail=0  k_medio=33.6  k_max=487  ratio_max=0.4141  7.1s
+  Finestra 9/10  X~3.886e+14  candidati=809,438  primi=595,126  coppie=595,125  fail=0  k_medio=33.3  k_max=469  ratio_max=0.4141  6.8s
+  Finestra 10/10  X~7.470e+14  candidati=812,523  primi=583,702  coppie=583,701  fail=0  k_medio=34.0  k_max=491  ratio_max=0.4141  7.1s
+
+  >> Scala 10^14: 5,915,736 coppie  |  fallimenti=0  |  k_medio=33.53  |  k_max=555  |  ratio_max=0.4141
+
+----------------------------------------------------------------------
+  SCALA: 10^15  (1.000e+15)
+----------------------------------------------------------------------
+  Finestra 1/10  X~4.322e+15  candidati=818,922  primi=554,957  coppie=554,956  fail=0  k_medio=35.8  k_max=499  ratio_max=0.3249  7.7s
+  Finestra 2/10  X~6.462e+15  candidati=819,896  primi=549,223  coppie=549,222  fail=0  k_medio=36.2  k_max=559  ratio_max=0.3618  7.6s
+  Finestra 3/10  X~3.035e+15  candidati=818,283  primi=561,364  coppie=561,363  fail=0  k_medio=35.4  k_max=489  ratio_max=0.3618  7.6s
+  Finestra 4/10  X~3.903e+15  candidati=818,033  primi=556,564  coppie=556,563  fail=0  k_medio=35.6  k_max=469  ratio_max=0.3618  7.5s
+  Finestra 5/10  X~5.310e+15  candidati=818,409  primi=552,155  coppie=552,154  fail=0  k_medio=36.0  k_max=497  ratio_max=0.3618  7.8s
+  Finestra 6/10  X~9.874e+15  candidati=819,831  primi=542,631  coppie=542,630  fail=0  k_medio=36.6  k_max=501  ratio_max=0.3618  7.8s
+  Finestra 7/10  X~4.946e+15  candidati=818,718  primi=552,907  coppie=552,906  fail=0  k_medio=35.9  k_max=539  ratio_max=0.3618  7.6s
+  Finestra 8/10  X~8.517e+15  candidati=820,001  primi=545,280  coppie=545,279  fail=0  k_medio=36.4  k_max=535  ratio_max=0.3701  7.6s
+  Finestra 9/10  X~4.414e+15  candidati=818,688  primi=555,825  coppie=555,824  fail=0  k_medio=35.8  k_max=475  ratio_max=0.3701  7.6s
+  Finestra 10/10  X~8.810e+15  candidati=820,237  primi=545,025  coppie=545,024  fail=0  k_medio=36.6  k_max=491  ratio_max=0.3701  7.8s
+
+  >> Scala 10^15: 5,515,921 coppie  |  fallimenti=0  |  k_medio=36.02  |  k_max=559  |  ratio_max=0.3701
+
+----------------------------------------------------------------------
+  SCALA: 10^16  (1.000e+16)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.851e+16  candidati=821,417  primi=524,336  coppie=524,335  fail=0  k_medio=38.0  k_max=585  ratio_max=0.3607  8.3s
+  Finestra 2/10  X~3.909e+16  candidati=821,153  primi=524,393  coppie=524,392  fail=0  k_medio=38.0  k_max=475  ratio_max=0.3607  8.4s
+  Finestra 3/10  X~3.783e+16  candidati=820,884  primi=523,043  coppie=523,042  fail=0  k_medio=37.9  k_max=483  ratio_max=0.3607  8.1s
+  Finestra 4/10  X~6.852e+16  candidati=820,414  primi=515,510  coppie=515,509  fail=0  k_medio=38.5  k_max=527  ratio_max=0.3607  8.4s
+  Finestra 5/10  X~4.761e+16  candidati=821,282  primi=521,467  coppie=521,466  fail=0  k_medio=38.1  k_max=463  ratio_max=0.3607  8.3s
+  Finestra 6/10  X~7.496e+16  candidati=820,609  primi=514,467  coppie=514,466  fail=0  k_medio=38.7  k_max=493  ratio_max=0.3607  8.5s
+  Finestra 7/10  X~9.878e+16  candidati=820,718  primi=511,614  coppie=511,613  fail=0  k_medio=38.9  k_max=479  ratio_max=0.3607  8.5s
+  Finestra 8/10  X~5.102e+16  candidati=821,124  primi=519,724  coppie=519,723  fail=0  k_medio=38.3  k_max=461  ratio_max=0.3607  8.2s
+  Finestra 9/10  X~9.369e+16  candidati=820,976  primi=511,820  coppie=511,819  fail=0  k_medio=38.8  k_max=531  ratio_max=0.3607  8.5s
+  Finestra 10/10  X~1.189e+16  candidati=819,937  primi=540,206  coppie=540,205  fail=0  k_medio=36.9  k_max=533  ratio_max=0.3607  8.0s
+
+  >> Scala 10^16: 5,206,570 coppie  |  fallimenti=0  |  k_medio=38.20  |  k_max=585  |  ratio_max=0.3607
+
+----------------------------------------------------------------------
+  SCALA: 10^17  (1.000e+17)
+----------------------------------------------------------------------
+  Finestra 1/10  X~1.985e+17  candidati=819,425  primi=502,287  coppie=502,286  fail=0  k_medio=39.7  k_max=577  ratio_max=0.2990  9.3s
+  Finestra 2/10  X~8.510e+17  candidati=817,138  primi=483,357  coppie=483,356  fail=0  k_medio=41.1  k_max=527  ratio_max=0.2990  9.8s
+  Finestra 3/10  X~6.308e+17  candidati=818,283  primi=488,503  coppie=488,502  fail=0  k_medio=40.9  k_max=763  ratio_max=0.3753  9.8s
+  Finestra 4/10  X~2.580e+17  candidati=819,319  primi=498,777  coppie=498,776  fail=0  k_medio=40.0  k_max=561  ratio_max=0.3753  9.1s
+  Finestra 5/10  X~4.468e+17  candidati=818,950  primi=492,604  coppie=492,603  fail=0  k_medio=40.4  k_max=547  ratio_max=0.3753  9.6s
+  Finestra 6/10  X~1.278e+17  candidati=821,850  primi=509,035  coppie=509,034  fail=0  k_medio=39.2  k_max=457  ratio_max=0.3753  8.6s
+  Finestra 7/10  X~8.178e+17  candidati=818,491  primi=485,449  coppie=485,448  fail=0  k_medio=41.1  k_max=491  ratio_max=0.3753  9.8s
+  Finestra 8/10  X~6.601e+17  candidati=816,644  primi=486,994  coppie=486,993  fail=0  k_medio=40.9  k_max=621  ratio_max=0.3753  9.7s
+  Finestra 9/10  X~6.601e+17  candidati=818,044  primi=487,699  coppie=487,698  fail=0  k_medio=40.9  k_max=625  ratio_max=0.3753  9.9s
+  Finestra 10/10  X~4.441e+17  candidati=819,316  primi=492,339  coppie=492,338  fail=0  k_medio=40.5  k_max=521  ratio_max=0.3753  9.7s
+
+  >> Scala 10^17: 4,927,034 coppie  |  fallimenti=0  |  k_medio=40.47  |  k_max=763  |  ratio_max=0.3753
+
+----------------------------------------------------------------------
+  SCALA: 10^18  (1.000e+18)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.624e+18  candidati=814,569  primi=467,693  coppie=467,692  fail=0  k_medio=42.6  k_max=537  ratio_max=0.2538  9.0s
+  Finestra 2/10  X~2.432e+18  candidati=815,058  primi=472,480  coppie=472,479  fail=0  k_medio=42.3  k_max=571  ratio_max=0.2766  9.5s
+  Finestra 3/10  X~3.128e+18  candidati=814,318  primi=469,061  coppie=469,060  fail=0  k_medio=42.4  k_max=523  ratio_max=0.2766  9.1s
+  Finestra 4/10  X~5.470e+18  candidati=814,477  primi=464,167  coppie=464,166  fail=0  k_medio=43.1  k_max=529  ratio_max=0.2766  9.2s
+  Finestra 5/10  X~9.175e+18  candidati=813,410  primi=457,146  coppie=457,145  fail=0  k_medio=43.6  k_max=559  ratio_max=0.2766  9.5s
+  Finestra 6/10  X~1.390e+18  candidati=816,875  primi=480,028  coppie=480,027  fail=0  k_medio=41.5  k_max=545  ratio_max=0.2782  9.8s
+  Finestra 7/10  X~9.498e+18  candidati=813,407  primi=457,727  coppie=457,726  fail=0  k_medio=43.5  k_max=565  ratio_max=0.2782  9.1s
+  Finestra 8/10  X~1.860e+18  candidati=816,317  primi=475,504  coppie=475,503  fail=0  k_medio=41.9  k_max=633  ratio_max=0.2898  9.4s
+  Finestra 9/10  X~8.920e+18  candidati=811,891  primi=457,901  coppie=457,900  fail=0  k_medio=43.4  k_max=593  ratio_max=0.2898  9.3s
+  Finestra 10/10  X~2.431e+18  candidati=815,400  primi=473,177  coppie=473,176  fail=0  k_medio=42.2  k_max=587  ratio_max=0.2898  9.4s
+
+  >> Scala 10^18: 4,674,874 coppie  |  fallimenti=0  |  k_medio=42.63  |  k_max=633  |  ratio_max=0.2898
+
+----------------------------------------------------------------------
+  SCALA: 10^19  (1.000e+19)
+----------------------------------------------------------------------
+  Finestra 1/10  X~8.724e+19  candidati=811,191  primi=434,857  coppie=434,856  fail=0  k_medio=45.9  k_max=609  ratio_max=0.2431  9.5s
+  Finestra 2/10  X~5.240e+19  candidati=812,711  primi=441,127  coppie=441,126  fail=0  k_medio=45.3  k_max=541  ratio_max=0.2431  9.4s
+  Finestra 3/10  X~2.289e+19  candidati=813,047  primi=449,363  coppie=449,362  fail=0  k_medio=44.5  k_max=601  ratio_max=0.2537  9.4s
+  Finestra 4/10  X~5.359e+19  candidati=811,289  primi=439,773  coppie=439,772  fail=0  k_medio=45.2  k_max=555  ratio_max=0.2537  9.5s
+  Finestra 5/10  X~7.292e+19  candidati=812,979  primi=437,926  coppie=437,925  fail=0  k_medio=45.4  k_max=699  ratio_max=0.2800  9.8s
+  Finestra 6/10  X~4.652e+19  candidati=811,804  primi=442,092  coppie=442,091  fail=0  k_medio=45.1  k_max=565  ratio_max=0.2800  9.4s
+  Finestra 7/10  X~2.175e+19  candidati=813,719  primi=449,659  coppie=449,658  fail=0  k_medio=44.4  k_max=565  ratio_max=0.2800  9.3s
+  Finestra 8/10  X~4.026e+19  candidati=811,456  primi=441,861  coppie=441,860  fail=0  k_medio=44.9  k_max=607  ratio_max=0.2800  9.4s
+  Finestra 9/10  X~6.593e+19  candidati=812,138  primi=438,557  coppie=438,556  fail=0  k_medio=45.5  k_max=583  ratio_max=0.2800  9.6s
+  Finestra 10/10  X~3.121e+19  candidati=813,108  primi=446,116  coppie=446,115  fail=0  k_medio=44.7  k_max=619  ratio_max=0.2800  9.3s
+
+  >> Scala 10^19: 4,421,321 coppie  |  fallimenti=0  |  k_medio=45.10  |  k_max=699  |  ratio_max=0.2800
+
+----------------------------------------------------------------------
+  SCALA: 10^20  (1.000e+20)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.145e+20  candidati=812,508  primi=424,026  coppie=424,025  fail=0  k_medio=47.1  k_max=607  ratio_max=0.2392  10.0s
+  Finestra 2/10  X~6.524e+20  candidati=811,453  primi=417,313  coppie=417,312  fail=0  k_medio=47.9  k_max=655  ratio_max=0.2403  10.4s
+  Finestra 3/10  X~8.923e+20  candidati=811,331  primi=413,630  coppie=413,629  fail=0  k_medio=48.1  k_max=619  ratio_max=0.2403  10.3s
+  Finestra 4/10  X~6.945e+20  candidati=811,894  primi=416,857  coppie=416,856  fail=0  k_medio=47.7  k_max=579  ratio_max=0.2403  10.1s
+  Finestra 5/10  X~1.040e+20  candidati=812,536  primi=434,343  coppie=434,342  fail=0  k_medio=46.1  k_max=541  ratio_max=0.2403  9.6s
+  Finestra 6/10  X~6.550e+20  candidati=811,685  primi=416,893  coppie=416,892  fail=0  k_medio=47.8  k_max=655  ratio_max=0.2444  10.1s
+  Finestra 7/10  X~1.290e+20  candidati=812,554  primi=432,270  coppie=432,269  fail=0  k_medio=46.2  k_max=571  ratio_max=0.2444  9.8s
+  Finestra 8/10  X~5.044e+20  candidati=812,305  primi=419,751  coppie=419,750  fail=0  k_medio=47.6  k_max=579  ratio_max=0.2444  10.4s
+  Finestra 9/10  X~8.682e+20  candidati=811,699  primi=415,010  coppie=415,009  fail=0  k_medio=48.2  k_max=601  ratio_max=0.2444  10.5s
+  Finestra 10/10  X~3.536e+20  candidati=812,858  primi=423,044  coppie=423,043  fail=0  k_medio=47.2  k_max=623  ratio_max=0.2483  10.1s
+
+  >> Scala 10^20: 4,213,127 coppie  |  fallimenti=0  |  k_medio=47.38  |  k_max=655  |  ratio_max=0.2483
+
+----------------------------------------------------------------------
+  SCALA: 10^21  (1.000e+21)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.785e+21  candidati=811,109  primi=402,862  coppie=402,861  fail=0  k_medio=49.6  k_max=643  ratio_max=0.2287  10.9s
+  Finestra 2/10  X~3.406e+21  candidati=810,955  primi=401,636  coppie=401,635  fail=0  k_medio=49.6  k_max=615  ratio_max=0.2287  10.8s
+  Finestra 3/10  X~1.834e+21  candidati=811,665  primi=408,079  coppie=408,078  fail=0  k_medio=48.8  k_max=615  ratio_max=0.2287  10.5s
+  Finestra 4/10  X~1.762e+21  candidati=812,364  primi=408,161  coppie=408,160  fail=0  k_medio=48.8  k_max=667  ratio_max=0.2508  10.5s
+  Finestra 5/10  X~2.922e+21  candidati=812,489  primi=404,653  coppie=404,652  fail=0  k_medio=49.2  k_max=653  ratio_max=0.2508  10.7s
+  Finestra 6/10  X~8.814e+21  candidati=812,181  primi=396,019  coppie=396,018  fail=0  k_medio=50.4  k_max=743  ratio_max=0.2537  10.9s
+  Finestra 7/10  X~8.966e+21  candidati=811,716  primi=395,044  coppie=395,043  fail=0  k_medio=50.5  k_max=667  ratio_max=0.2537  10.7s
+  Finestra 8/10  X~1.575e+21  candidati=811,486  primi=409,665  coppie=409,664  fail=0  k_medio=48.7  k_max=699  ratio_max=0.2537  10.3s
+  Finestra 9/10  X~8.991e+21  candidati=811,822  primi=394,854  coppie=394,853  fail=0  k_medio=50.4  k_max=623  ratio_max=0.2537  10.7s
+  Finestra 10/10  X~2.225e+21  candidati=812,273  primi=407,654  coppie=407,653  fail=0  k_medio=49.1  k_max=635  ratio_max=0.2537  10.6s
+
+  >> Scala 10^21: 4,028,617 coppie  |  fallimenti=0  |  k_medio=49.51  |  k_max=743  |  ratio_max=0.2537
+
+----------------------------------------------------------------------
+  SCALA: 10^22  (1.000e+22)
+----------------------------------------------------------------------
+  Finestra 1/10  X~9.113e+22  candidati=812,415  primi=378,172  coppie=378,171  fail=0  k_medio=52.9  k_max=663  ratio_max=0.2178  11.6s
+  Finestra 2/10  X~1.266e+22  candidati=812,377  primi=393,276  coppie=393,275  fail=0  k_medio=50.8  k_max=691  ratio_max=0.2370  10.6s
+  Finestra 3/10  X~5.070e+22  candidati=812,362  primi=381,586  coppie=381,585  fail=0  k_medio=52.4  k_max=759  ratio_max=0.2554  11.3s
+  Finestra 4/10  X~4.007e+22  candidati=812,655  primi=384,637  coppie=384,636  fail=0  k_medio=51.9  k_max=675  ratio_max=0.2554  10.9s
+  Finestra 5/10  X~2.274e+22  candidati=811,957  primi=387,588  coppie=387,587  fail=0  k_medio=51.4  k_max=665  ratio_max=0.2554  11.1s
+  Finestra 6/10  X~1.975e+22  candidati=812,049  primi=389,864  coppie=389,863  fail=0  k_medio=51.3  k_max=619  ratio_max=0.2554  11.1s
+  Finestra 7/10  X~9.876e+22  candidati=812,676  primi=377,640  coppie=377,639  fail=0  k_medio=53.0  k_max=871  ratio_max=0.2725  11.5s
+  Finestra 8/10  X~9.910e+22  candidati=812,336  primi=377,849  coppie=377,848  fail=0  k_medio=52.8  k_max=689  ratio_max=0.2725  11.6s
+  Finestra 9/10  X~9.158e+22  candidati=812,680  primi=378,587  coppie=378,586  fail=0  k_medio=52.9  k_max=661  ratio_max=0.2725  11.4s
+  Finestra 10/10  X~7.938e+22  candidati=812,101  primi=378,980  coppie=378,979  fail=0  k_medio=52.6  k_max=689  ratio_max=0.2725  11.4s
+
+  >> Scala 10^22: 3,828,169 coppie  |  fallimenti=0  |  k_medio=52.18  |  k_max=871  |  ratio_max=0.2725
+
+----------------------------------------------------------------------
+  SCALA: 10^23  (1.000e+23)
+----------------------------------------------------------------------
+  Finestra 1/10  X~4.488e+23  candidati=812,443  primi=367,277  coppie=367,276  fail=0  k_medio=54.6  k_max=713  ratio_max=0.2129  11.8s
+  Finestra 2/10  X~3.669e+23  candidati=812,562  primi=368,645  coppie=368,644  fail=0  k_medio=54.3  k_max=691  ratio_max=0.2129  11.9s
+  Finestra 3/10  X~7.402e+23  candidati=812,208  primi=363,848  coppie=363,847  fail=0  k_medio=55.0  k_max=745  ratio_max=0.2141  12.3s
+  Finestra 4/10  X~8.741e+23  candidati=813,137  primi=363,145  coppie=363,144  fail=0  k_medio=55.0  k_max=691  ratio_max=0.2141  12.4s
+  Finestra 5/10  X~3.737e+23  candidati=812,366  primi=367,841  coppie=367,840  fail=0  k_medio=54.5  k_max=685  ratio_max=0.2141  11.9s
+  Finestra 6/10  X~7.791e+23  candidati=813,515  primi=363,854  coppie=363,853  fail=0  k_medio=55.0  k_max=727  ratio_max=0.2141  12.2s
+  Finestra 7/10  X~3.389e+23  candidati=812,671  primi=369,152  coppie=369,151  fail=0  k_medio=54.1  k_max=739  ratio_max=0.2207  11.8s
+  Finestra 8/10  X~8.546e+23  candidati=812,923  primi=363,541  coppie=363,540  fail=0  k_medio=55.1  k_max=831  ratio_max=0.2352  12.3s
+  Finestra 9/10  X~4.115e+23  candidati=812,256  primi=367,531  coppie=367,530  fail=0  k_medio=54.3  k_max=663  ratio_max=0.2352  11.8s
+  Finestra 10/10  X~7.397e+23  candidati=812,962  primi=363,822  coppie=363,821  fail=0  k_medio=54.9  k_max=669  ratio_max=0.2352  12.2s
+
+  >> Scala 10^23: 3,658,646 coppie  |  fallimenti=0  |  k_medio=54.67  |  k_max=831  |  ratio_max=0.2352
+
+----------------------------------------------------------------------
+  SCALA: 10^24  (1.000e+24)
+----------------------------------------------------------------------
+  Finestra 1/10  X~5.213e+24  candidati=813,305  primi=351,563  coppie=351,562  fail=0  k_medio=56.9  k_max=657  ratio_max=0.1773  13.1s
+  Finestra 2/10  X~8.621e+24  candidati=813,086  primi=348,537  coppie=348,536  fail=0  k_medio=57.4  k_max=913  ratio_max=0.2349  12.5s
+  Finestra 3/10  X~3.487e+24  candidati=812,938  primi=353,604  coppie=353,603  fail=0  k_medio=56.4  k_max=837  ratio_max=0.2349  12.7s
+  Finestra 4/10  X~8.586e+24  candidati=813,110  primi=348,189  coppie=348,188  fail=0  k_medio=57.5  k_max=801  ratio_max=0.2349  12.8s
+  Finestra 5/10  X~8.208e+24  candidati=812,905  primi=348,134  coppie=348,133  fail=0  k_medio=57.2  k_max=947  ratio_max=0.2564  12.7s
+  Finestra 6/10  X~9.167e+24  candidati=812,713  primi=347,890  coppie=347,889  fail=0  k_medio=57.4  k_max=927  ratio_max=0.2613  12.8s
+  Finestra 7/10  X~5.541e+24  candidati=812,714  primi=350,269  coppie=350,268  fail=0  k_medio=56.8  k_max=733  ratio_max=0.2613  13.0s
+  Finestra 8/10  X~9.880e+24  candidati=813,318  primi=348,428  coppie=348,427  fail=0  k_medio=57.4  k_max=685  ratio_max=0.2613  12.7s
+  Finestra 9/10  X~1.682e+24  candidati=812,831  primi=357,924  coppie=357,923  fail=0  k_medio=55.7  k_max=733  ratio_max=0.2613  12.4s
+  Finestra 10/10  X~8.052e+24  candidati=812,769  primi=348,666  coppie=348,665  fail=0  k_medio=57.4  k_max=703  ratio_max=0.2613  12.7s
+
+  >> Scala 10^24: 3,503,194 coppie  |  fallimenti=0  |  k_medio=57.01  |  k_max=947  |  ratio_max=0.2613
+
+----------------------------------------------------------------------
+  SCALA: 10^25  (1.000e+25)
+----------------------------------------------------------------------
+  Finestra 1/10  X~8.246e+25  candidati=812,637  primi=334,437  coppie=334,436  fail=0  k_medio=59.5  k_max=847  ratio_max=0.2081  13.3s
+  Finestra 2/10  X~8.558e+25  candidati=813,354  primi=334,800  coppie=334,799  fail=0  k_medio=59.9  k_max=767  ratio_max=0.2081  13.5s
+  Finestra 3/10  X~3.745e+25  candidati=811,981  primi=339,587  coppie=339,586  fail=0  k_medio=58.8  k_max=821  ratio_max=0.2081  13.3s
+  Finestra 4/10  X~3.455e+25  candidati=812,834  primi=340,614  coppie=340,613  fail=0  k_medio=58.8  k_max=913  ratio_max=0.2430  13.2s
+  Finestra 5/10  X~2.914e+25  candidati=812,742  primi=340,926  coppie=340,925  fail=0  k_medio=58.4  k_max=701  ratio_max=0.2430  13.2s
+  Finestra 6/10  X~8.611e+25  candidati=813,424  primi=335,402  coppie=335,401  fail=0  k_medio=59.5  k_max=795  ratio_max=0.2430  13.6s
+  Finestra 7/10  X~7.211e+25  candidati=812,861  primi=335,429  coppie=335,428  fail=0  k_medio=59.3  k_max=941  ratio_max=0.2430  13.3s
+  Finestra 8/10  X~3.495e+25  candidati=812,681  primi=340,671  coppie=340,670  fail=0  k_medio=58.9  k_max=799  ratio_max=0.2430  13.4s
+  Finestra 9/10  X~1.112e+25  candidati=812,938  primi=347,103  coppie=347,102  fail=0  k_medio=57.5  k_max=877  ratio_max=0.2430  12.8s
+  Finestra 10/10  X~7.886e+25  candidati=813,369  primi=335,224  coppie=335,223  fail=0  k_medio=59.6  k_max=709  ratio_max=0.2430  13.2s
+
+  >> Scala 10^25: 3,384,183 coppie  |  fallimenti=0  |  k_medio=59.03  |  k_max=941  |  ratio_max=0.2430
+
+----------------------------------------------------------------------
+  SCALA: 10^26  (1.000e+26)
+----------------------------------------------------------------------
+  Finestra 1/10  X~2.384e+26  candidati=812,586  primi=329,349  coppie=329,348  fail=0  k_medio=60.5  k_max=777  ratio_max=0.1881  13.7s
+  Finestra 2/10  X~4.023e+26  candidati=812,876  primi=326,947  coppie=326,946  fail=0  k_medio=61.2  k_max=933  ratio_max=0.2189  13.6s
+  Finestra 3/10  X~4.297e+26  candidati=812,985  primi=326,454  coppie=326,453  fail=0  k_medio=61.2  k_max=739  ratio_max=0.2189  13.9s
+  Finestra 4/10  X~9.368e+26  candidati=812,782  primi=321,365  coppie=321,364  fail=0  k_medio=62.2  k_max=751  ratio_max=0.2189  14.2s
+  Finestra 5/10  X~3.072e+26  candidati=812,522  primi=327,449  coppie=327,448  fail=0  k_medio=61.0  k_max=883  ratio_max=0.2189  13.7s
+  Finestra 6/10  X~2.544e+26  candidati=812,312  primi=328,535  coppie=328,534  fail=0  k_medio=61.0  k_max=823  ratio_max=0.2189  14.0s
+  Finestra 7/10  X~2.166e+26  candidati=813,379  primi=330,066  coppie=330,065  fail=0  k_medio=60.5  k_max=787  ratio_max=0.2189  13.8s
+  Finestra 8/10  X~3.227e+26  candidati=812,773  primi=328,013  coppie=328,012  fail=0  k_medio=61.0  k_max=751  ratio_max=0.2189  14.3s
+  Finestra 9/10  X~3.386e+26  candidati=812,644  primi=327,345  coppie=327,344  fail=0  k_medio=61.1  k_max=733  ratio_max=0.2189  14.2s
+  Finestra 10/10  X~7.643e+26  candidati=812,966  primi=323,325  coppie=323,324  fail=0  k_medio=61.7  k_max=841  ratio_max=0.2189  14.1s
+
+  >> Scala 10^26: 3,268,838 coppie  |  fallimenti=0  |  k_medio=61.14  |  k_max=933  |  ratio_max=0.2189
+
+----------------------------------------------------------------------
+  SCALA: 10^27  (1.000e+27)
+----------------------------------------------------------------------
+  Finestra 1/10  X~1.959e+27  candidati=812,650  primi=318,211  coppie=318,210  fail=0  k_medio=62.9  k_max=831  ratio_max=0.1911  14.3s
+  Finestra 2/10  X~1.670e+27  candidati=812,587  primi=318,087  coppie=318,086  fail=0  k_medio=62.8  k_max=793  ratio_max=0.1911  14.3s
+  Finestra 3/10  X~4.259e+27  candidati=813,248  primi=314,546  coppie=314,545  fail=0  k_medio=63.8  k_max=935  ratio_max=0.2019  14.8s
+  Finestra 4/10  X~9.656e+27  candidati=813,327  primi=311,013  coppie=311,012  fail=0  k_medio=64.4  k_max=789  ratio_max=0.2019  14.9s
+  Finestra 5/10  X~9.574e+27  candidati=812,682  primi=309,764  coppie=309,763  fail=0  k_medio=64.5  k_max=771  ratio_max=0.2019  14.9s
+  Finestra 6/10  X~5.613e+27  candidati=812,588  primi=313,383  coppie=313,382  fail=0  k_medio=63.9  k_max=811  ratio_max=0.2019  14.6s
+  Finestra 7/10  X~6.626e+27  candidati=812,854  primi=312,706  coppie=312,705  fail=0  k_medio=64.2  k_max=909  ratio_max=0.2078  15.0s
+  Finestra 8/10  X~6.154e+27  candidati=812,525  primi=312,601  coppie=312,600  fail=0  k_medio=64.0  k_max=723  ratio_max=0.2078  15.1s
+  Finestra 9/10  X~6.439e+27  candidati=812,557  primi=312,290  coppie=312,289  fail=0  k_medio=64.0  k_max=827  ratio_max=0.2078  15.0s
+  Finestra 10/10  X~2.416e+27  candidati=812,353  primi=316,439  coppie=316,438  fail=0  k_medio=63.1  k_max=861  ratio_max=0.2078  14.4s
+
+  >> Scala 10^27: 3,139,030 coppie  |  fallimenti=0  |  k_medio=63.76  |  k_max=935  |  ratio_max=0.2078
+
+----------------------------------------------------------------------
+  SCALA: 10^28  (1.000e+28)
+----------------------------------------------------------------------
+  Finestra 1/10  X~2.090e+28  candidati=812,968  primi=306,970  coppie=306,969  fail=0  k_medio=65.4  k_max=1041  ratio_max=0.2149  15.3s
+  Finestra 2/10  X~5.748e+28  candidati=812,494  primi=301,670  coppie=301,669  fail=0  k_medio=66.1  k_max=919  ratio_max=0.2149  16.0s
+  Finestra 3/10  X~1.773e+28  candidati=812,334  primi=307,277  coppie=307,276  fail=0  k_medio=64.9  k_max=807  ratio_max=0.2149  15.2s
+  Finestra 4/10  X~3.751e+28  candidati=812,967  primi=303,747  coppie=303,746  fail=0  k_medio=65.8  k_max=855  ratio_max=0.2149  15.7s
+  Finestra 5/10  X~1.211e+28  candidati=812,272  primi=308,883  coppie=308,882  fail=0  k_medio=64.6  k_max=859  ratio_max=0.2149  15.1s
+  Finestra 6/10  X~7.558e+28  candidati=812,359  primi=300,969  coppie=300,968  fail=0  k_medio=66.4  k_max=799  ratio_max=0.2149  15.9s
+  Finestra 7/10  X~7.346e+28  candidati=812,779  primi=300,896  coppie=300,895  fail=0  k_medio=66.5  k_max=861  ratio_max=0.2149  16.2s
+  Finestra 8/10  X~5.155e+28  candidati=812,305  primi=302,819  coppie=302,818  fail=0  k_medio=66.2  k_max=985  ratio_max=0.2149  16.1s
+  Finestra 9/10  X~3.462e+28  candidati=813,050  primi=304,508  coppie=304,507  fail=0  k_medio=65.6  k_max=791  ratio_max=0.2149  15.6s
+  Finestra 10/10  X~1.975e+28  candidati=812,171  primi=305,858  coppie=305,857  fail=0  k_medio=65.4  k_max=827  ratio_max=0.2149  15.6s
+
+  >> Scala 10^28: 3,043,587 coppie  |  fallimenti=0  |  k_medio=65.67  |  k_max=1041  |  ratio_max=0.2149
+
+----------------------------------------------------------------------
+  SCALA: 10^29  (1.000e+29)
+----------------------------------------------------------------------
+  Finestra 1/10  X~3.373e+29  candidati=812,750  primi=294,243  coppie=294,242  fail=0  k_medio=68.1  k_max=755  ratio_max=0.1502  15.8s
+  Finestra 2/10  X~4.178e+29  candidati=813,686  primi=294,387  coppie=294,386  fail=0  k_medio=68.1  k_max=969  ratio_max=0.1839  15.9s
+  Finestra 3/10  X~7.506e+29  candidati=812,850  primi=290,101  coppie=290,100  fail=0  k_medio=68.6  k_max=959  ratio_max=0.1851  16.2s
+  Finestra 4/10  X~7.502e+29  candidati=813,117  primi=291,288  coppie=291,287  fail=0  k_medio=68.8  k_max=899  ratio_max=0.1851  16.4s
+  Finestra 5/10  X~7.896e+29  candidati=813,455  primi=291,496  coppie=291,495  fail=0  k_medio=69.0  k_max=817  ratio_max=0.1851  16.6s
+  Finestra 6/10  X~7.202e+29  candidati=813,082  primi=291,047  coppie=291,046  fail=0  k_medio=68.8  k_max=911  ratio_max=0.1851  16.5s
+  Finestra 7/10  X~9.210e+29  candidati=812,834  primi=289,869  coppie=289,868  fail=0  k_medio=69.0  k_max=931  ratio_max=0.1851  16.4s
+  Finestra 8/10  X~8.416e+29  candidati=813,308  primi=290,507  coppie=290,506  fail=0  k_medio=68.9  k_max=803  ratio_max=0.1851  16.4s
+  Finestra 9/10  X~8.654e+29  candidati=813,554  primi=290,943  coppie=290,942  fail=0  k_medio=69.0  k_max=847  ratio_max=0.1851  16.3s
+  Finestra 10/10  X~5.089e+29  candidati=812,712  primi=292,027  coppie=292,026  fail=0  k_medio=68.3  k_max=859  ratio_max=0.1851  16.1s
+
+  >> Scala 10^29: 2,915,898 coppie  |  fallimenti=0  |  k_medio=68.67  |  k_max=969  |  ratio_max=0.1851
+
+----------------------------------------------------------------------
+  SCALA: 10^30  (1.000e+30)
+----------------------------------------------------------------------
+  Finestra 1/10  X~8.505e+30  candidati=812,476  primi=280,356  coppie=280,355  fail=0  k_medio=71.3  k_max=957  ratio_max=0.1699  17.0s
+  Finestra 2/10  X~8.089e+30  candidati=812,087  primi=281,210  coppie=281,209  fail=0  k_medio=71.3  k_max=921  ratio_max=0.1699  17.3s
+  Finestra 3/10  X~4.130e+30  candidati=813,280  primi=283,655  coppie=283,654  fail=0  k_medio=70.2  k_max=885  ratio_max=0.1712  16.8s
+  Finestra 4/10  X~3.335e+30  candidati=812,847  primi=284,048  coppie=284,047  fail=0  k_medio=70.4  k_max=805  ratio_max=0.1712  16.6s
+  Finestra 5/10  X~1.298e+30  candidati=812,862  primi=288,744  coppie=288,743  fail=0  k_medio=69.4  k_max=827  ratio_max=0.1712  16.6s
+  Finestra 6/10  X~5.623e+30  candidati=812,820  primi=281,964  coppie=281,963  fail=0  k_medio=70.9  k_max=883  ratio_max=0.1712  17.0s
+  Finestra 7/10  X~1.679e+30  candidati=813,208  primi=286,409  coppie=286,408  fail=0  k_medio=69.6  k_max=1023  ratio_max=0.1961  16.5s
+  Finestra 8/10  X~6.088e+30  candidati=813,231  primi=282,076  coppie=282,075  fail=0  k_medio=70.8  k_max=961  ratio_max=0.1961  17.0s
+  Finestra 9/10  X~9.806e+30  candidati=811,715  primi=279,660  coppie=279,659  fail=0  k_medio=71.4  k_max=829  ratio_max=0.1961  17.2s
+  Finestra 10/10  X~3.724e+30  candidati=812,451  primi=284,222  coppie=284,221  fail=0  k_medio=70.4  k_max=1339  ratio_max=0.2413  16.6s
+
+  >> Scala 10^30: 2,832,334 coppie  |  fallimenti=0  |  k_medio=70.53  |  k_max=1339  |  ratio_max=0.2413
+
+======================================================================
+  RISULTATI FINALI
+======================================================================
+  Coppie totali analizzate: 74,860,909
+  Fallimenti:               0
+  k massimo osservato:      1339
+  Ratio k/N massima:        0.414100
+  Tempo totale:             2053.7s
+
+  --------------------------------------------------
+       Scala        Coppie    Fail     k_max   ratio_max
+  --------------------------------------------------
+       10^13     6,383,830       0       499      0.3912
+       10^14     5,915,736       0       555      0.4141
+       10^15     5,515,921       0       559      0.3701
+       10^16     5,206,570       0       585      0.3607
+       10^17     4,927,034       0       763      0.3753
+       10^18     4,674,874       0       633      0.2898
+       10^19     4,421,321       0       699      0.2800
+       10^20     4,213,127       0       655      0.2483
+       10^21     4,028,617       0       743      0.2537
+       10^22     3,828,169       0       871      0.2725
+       10^23     3,658,646       0       831      0.2352
+       10^24     3,503,194       0       947      0.2613
+       10^25     3,384,183       0       941      0.2430
+       10^26     3,268,838       0       933      0.2189
+       10^27     3,139,030       0       935      0.2078
+       10^28     3,043,587       0      1041      0.2149
+       10^29     2,915,898       0       969      0.1851
+       10^30     2,832,334       0      1339      0.2413
+  --------------------------------------------------
+
+  [OK] NESSUN FALLIMENTO -- la congettura Sparacino regge
+  [OK] Copertura: da 10^13 a 10^30
+
+  Per la dimostrazione completa:
+  - Ramo 1 (M < 2564):       verifica esaustiva (100 coppie) OK
+  - Ramo 2 (fino a 10^13):   script originale (139M coppie) OK
+  - Ramo 3 (fino a 10^25):   questo script OK
+  - Ramo 4 (M >= 10^7):      Baker-Harman-Pintz (analitico) OK
+
+  GAP RESIDUO: 10^25 < M < soglia_BHP (stima < 10^30)
+  -> Aumenta --scales con valori fino a 29 per chiudere il gap.

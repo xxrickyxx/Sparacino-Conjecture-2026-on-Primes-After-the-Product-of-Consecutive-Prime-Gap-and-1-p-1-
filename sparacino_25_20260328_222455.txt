@@ -1,0 +1,7 @@
+Congettura Sparacino - Verifica fino a 10^14
+GPU: NVIDIA GeForce RTX 5060 Ti
+Data: 2026-03-28 22:24:55.204218
+
+Scala 10^14: 308944 coppie, 0 fallimenti, k_max=385
+
+Totale: 308944 coppie, 0 fallimenti
