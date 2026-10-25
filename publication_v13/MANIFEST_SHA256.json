@@ -1,0 +1,12 @@
+{
+  "record": "https://zenodo.org/records/21973485",
+  "version": "v13",
+  "date": "2026-10-25",
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "README.md": "e82f63178f71ebefb87c5f144f7021b987ea65fa7b67d24ae1e6dfef52092542",
+    "Sparacino_Conjecture_v13.md": "dcb5467639a848dd8634377fe4965fd0536f5ba69ae98cb66c4b135e17e3c26f",
+    "Sparacino_Conjecture_v13.pdf": "3ea7fdd06f30f0cf318c7df442f82effcad6e5b4d56940d90dd2cdfeee2fe138",
+    "Sparacino_Conjecture_v13_reproducibility.zip": "50751988db0b0c2ee4bd42f7024f0d5a787c55cb0a8b2d2e2b40fc949ebed39f"
+  }
+}
